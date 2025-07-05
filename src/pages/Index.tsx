@@ -24,6 +24,12 @@ const Index = () => {
     setCurrentScreen('timer');
   };
 
+  const simulateLastSeconds = () => {
+    const now = Date.now();
+    setStartTime(now - (24 * 60 * 60 * 1000) + 10000); // Set to 10 seconds remaining
+    setTimeRemaining(10000);
+  };
+
   const resetApp = () => {
     setCurrentScreen('welcome');
     setUserName('');
@@ -72,6 +78,7 @@ const Index = () => {
           <TimerScreen
             timeRemaining={timeRemaining}
             userName={userName}
+            onSimulateEnd={simulateLastSeconds}
           />
         );
       case 'unlock':
@@ -94,7 +101,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500">
+    <div className="min-h-screen bg-gray-50">
       {renderScreen()}
     </div>
   );

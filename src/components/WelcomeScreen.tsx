@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Smartphone, TrendingUp } from 'lucide-react';
+import { Smartphone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -16,41 +16,43 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
   onStart,
 }) => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 text-white">
-      <div className="text-center max-w-md mx-auto animate-fade-in">
-        <div className="mb-8 relative">
-          <div className="text-8xl mb-4 animate-pulse">📱</div>
-          <div className="absolute -top-2 -right-2 text-4xl animate-bounce">📏</div>
-        </div>
-        
-        <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
-          Rolômetro
-        </h1>
-        
-        <p className="text-xl mb-8 leading-relaxed font-medium">
-          Descubra quantos metros você rolou na tela do celular nas próximas 24h.
-        </p>
-        
-        <div className="space-y-4 mb-8">
-          <Input
-            type="text"
-            placeholder="Seu nome (opcional)"
-            value={userName}
-            onChange={(e) => setUserName(e.target.value)}
-            className="bg-white/20 border-white/30 text-white placeholder-white/70 text-lg p-4 rounded-2xl backdrop-blur-sm"
-          />
-        </div>
-        
-        <Button
-          onClick={onStart}
-          className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-2xl text-lg transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-        >
-          <Smartphone className="mr-2" />
-          Começar meu Rolômetro
-        </Button>
-        
-        <div className="mt-8 text-sm opacity-80">
-          <p>🎯 Prepare-se para uma surpresa!</p>
+    <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-50">
+      <div className="w-full max-w-md mx-auto">
+        <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+          <div className="mb-8">
+            <div className="text-6xl mb-4">📱</div>
+            <div className="absolute -top-2 -right-2 text-3xl">📏</div>
+          </div>
+          
+          <h1 className="text-4xl font-bold mb-4 text-gray-800">
+            Rolômetro
+          </h1>
+          
+          <p className="text-lg mb-8 text-gray-600 leading-relaxed">
+            Descubra quantos metros você rolou na tela do celular nas próximas 24h.
+          </p>
+          
+          <div className="space-y-4 mb-8">
+            <Input
+              type="text"
+              placeholder="Seu nome (opcional)"
+              value={userName}
+              onChange={(e) => setUserName(e.target.value)}
+              className="text-center text-lg p-4 border-2 border-gray-200 rounded-xl focus:border-blue-400 transition-colors"
+            />
+          </div>
+          
+          <Button
+            onClick={onStart}
+            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-200 shadow-md hover:shadow-lg"
+          >
+            <Smartphone className="mr-2" size={20} />
+            Começar meu Rolômetro
+          </Button>
+          
+          <div className="mt-6 text-sm text-gray-500">
+            <p>🎯 Prepare-se para uma surpresa!</p>
+          </div>
         </div>
       </div>
     </div>
