@@ -1,5 +1,6 @@
 
 export const phrases = {
+  pt: {
   curiosidade: [
     "Você quer saber. A gente sabe que você quer saber.",
     "O número já tá aqui, só falta você querer ver.",
@@ -12,7 +13,6 @@ export const phrases = {
     "Já passou da média. Agora é só ver até onde vai.",
     "Tem gente que desbloqueou e ficou chocado."
   ],
-  
   humor: [
     "Se isso fosse esteira, você já tinha emagrecido 2kg.",
     "Certeza que já rolou mais que o feed inteiro do mês.",
@@ -33,7 +33,6 @@ export const phrases = {
     "Você já rolou mais que o necessário. Agora vai viver um tiquinho.",
     "Tá tentando achar o fim da internet, é isso?"
   ],
-  
   motivacional: [
     "Desliga o celular por 10 minutos. A gente segura o scroll por aqui.",
     "Seu dedo merece uma pausa e um spa.",
@@ -54,7 +53,6 @@ export const phrases = {
     "Vai olhar pra uma planta. Uma de verdade, não um story com planta.",
     "Seu cachorro (mesmo que imaginário) quer atenção."
   ],
-  
   duploSentido: [
     "Tá rolando demais… cuidado pra não se apaixonar 👀",
     "Esse rolo já virou relacionamento sério.",
@@ -72,4 +70,76 @@ export const phrases = {
     "Tem rolo que começa assim: com o dedo e um pouco de tédio.",
     "Você acha que tá só rolando… mas o Rolômetro vê tudo 😏"
   ]
+  },
+  en: {
+    curiosidade: [
+      "You want to know. We know you want to know.",
+      "The number is already here, you just have to want to see it.",
+      "There’s a number waiting for you. And it’s bigger than it looks.",
+      "Tip: you’ve already passed the national average 😬",
+      "There’s a scroll medal waiting for you.",
+      "There’s a number ready here… and it defines you today.",
+      "Did you break the scrolling record?",
+      "Top 10% of the country’s biggest scrollers? Maybe…",
+      "You’ve already passed the average. Now just see how far you go.",
+      "Some people unlocked and were shocked."
+    ],
+    humor: [
+      "If this were a treadmill, you’d have lost 2kg by now.",
+      "You’ve probably scrolled more than the whole month’s feed.",
+      "You’re scrolling more than a soap opera.",
+      "If every scroll was worth $0.10, you’d have paid for your pizza.",
+      "Your finger is a crossfitter now.",
+      "You’re scrolling more than family group gossip.",
+      "You’re not scrolling, you’re digging a hole!",
+      "If every scroll was a step, you’d be in another city.",
+      "Mark Zuckerberg is giving you a standing ovation now.",
+      "Your phone is about to retire from overwork.",
+      "Take it easy, thumb olympian!",
+      "Soon the Wi-Fi will ask for a break.",
+      "Are you trying to finish Instagram?",
+      "You’re scrolling more than the credits of a movie.",
+      "If every scroll was gossip, you’d know all the secrets in Brazil.",
+      "Your phone screen is getting smooth from so much scrolling.",
+      "You’ve scrolled more than enough. Now go live a little.",
+      "Trying to find the end of the internet, huh?"
+    ],
+    motivacional: [
+      "Turn off your phone for 10 minutes. We’ll hold the scroll here.",
+      "Your finger deserves a break and a spa.",
+      "Go drink some water. Your thumb will thank you.",
+      "Take a look at the sky. It’s still there.",
+      "Scrolling doesn’t feed you. Go eat something decent.",
+      "There’s time for a coffee… and maybe to live a little.",
+      "Tip of the day: stretching your legs and looking far helps your vision. And your life.",
+      "Your brain is begging for a break. 5 min of fresh air won’t hurt.",
+      "Put down the phone. Lift your self-esteem.",
+      "This scroll won’t run away. You can do it.",
+      "If you get up now, you’ll earn +1 respect point from your knee.",
+      "The couch won’t disappear if you get up for a bit.",
+      "Pause, go live offline. Just a little. I promise the feed will wait.",
+      "Leave the screen. Come back with stories, not just notifications.",
+      "If every minute here was a squat… you’d be a beast.",
+      "Go live a real plot twist and come back later.",
+      "Go look at a plant. A real one, not just a story with a plant.",
+      "Your dog (even if imaginary) wants attention."
+    ],
+    duploSentido: [
+      "You’re scrolling too much… careful not to fall in love 👀",
+      "This scroll is already a serious relationship.",
+      "You’ve scrolled so much the app is jealous.",
+      "And all this scrolling… where will it lead?",
+      "Your finger is more tangled than your contacts.",
+      "Scrollmeter reading high… are you a Scorpio?",
+      "Matched with scrolling today?",
+      "You’re scrolling so much it looks like a WhatsApp group fight.",
+      "This scroll could be a soap opera.",
+      "Careful not to confuse scrolling with feelings.",
+      "You’re scrolling so much the algorithm thinks you’re lonely.",
+      "Not to say anything, but this scroll has a future.",
+      "Scrollmeter doesn’t judge, but it sees everything you scroll.",
+      "Some scrolls start like this: with your finger and a bit of boredom.",
+      "You think you’re just scrolling… but Scrollmeter sees it all 😏"
+    ]
+  }
 };
