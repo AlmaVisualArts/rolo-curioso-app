@@ -53,7 +53,7 @@ const ActivationScreen: React.FC<ActivationScreenProps> = ({
               <span className="text-4xl animate-swing-clock">⏰</span> {/* Tamanho reduzido */}
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold mb-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              {t('activation.title')}
+              {userName ? t('activation.title_with_name', { name: userName }) : t('activation.title')}
             </h1>
             {/* Removido o parágrafo de preparação */}
             {/* Mantido apenas o bloco de instrução principal já presente abaixo */}

@@ -88,6 +88,7 @@ const resources = {
       'result.eq.times': 'times',
       'result.percentage_above': 'You scrolled {{percentage}}% more than the national average!',
       'result.percentage_below': 'You scrolled {{percentage}}% less than the national average!',
+      'activation.title_with_name': "Let's go, {{name}}!",
     },
   },
   pt: {
@@ -176,6 +177,7 @@ const resources = {
       'result.eq.times': 'vezes',
       'result.percentage_above': 'Você rolou {{percentage}}% a mais que a média nacional!',
       'result.percentage_below': 'Você rolou {{percentage}}% a menos que a média nacional!',
+      'activation.title_with_name': 'Vamos lá, {{name}}!',
     },
   },
 };
