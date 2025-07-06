@@ -2,6 +2,8 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import './lib/i18n';
+import { inject } from '@vercel/analytics';
+inject();
 
 // Register Service Worker for PWA
 if ('serviceWorker' in navigator) {
